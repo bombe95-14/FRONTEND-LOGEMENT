@@ -1,0 +1,82 @@
+
+.item_service {
+    border: 2px solid yellow;
+    color: rgb(52, 52, 207);
+}
+
+.first {
+    background-color: red;
+    height: 0!important;
+    width: 0% !important;
+}
+
+.parti_service>div:first-child {
+    color: yellowgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 3.5em;
+    margin-top: 1em;
+}
+
+.parti_service>div>div {
+    border: 1px solid rgb(123, 120, 120);
+    text-align: center;
+    padding: 0px;
+}
+
+.parti_service>div>div p:first-child {
+   font-size: 4em;
+   margin-top: .3em;
+   border-radius: 80%/80%;
+}
+
+
+.parti_service .property {
+    border: 3px solid rgb(157, 5, 5)!important;
+}
+
+
+.parti_service>div:last-child {
+    background-color: whitesmoke;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.parti_service>div:last-child>div:first-child {
+     width: 31%;
+     margin-left: 2%;
+     border-right: 2px solid green;
+}
+
+.parti_service>div:last-child>div:first-child p {
+    display: flex;
+    justify-content: space-between;
+    padding: .4em;
+    align-items: center;
+}
+
+.parti_service>div:last-child>div:first-child input{
+    font-size: 1em;
+    padding: 3px;
+}
+
+.parti_service>div:last-child>div:first-child a {
+    background-color: blue;
+    color: gray;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.parti_service>div:last-child>div:last-child {
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2%;
+    column-gap: 1%;
+}

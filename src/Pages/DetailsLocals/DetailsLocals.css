@@ -1,0 +1,66 @@
+
+.details {
+    background-color: rgb(116, 110, 232);
+    padding-top: 3.5em;  
+    margin-top: 1.5em;
+}
+
+.details>p:first-child {
+     color: white;
+     margin-left: 20%;
+     font-size: 1.3em;
+     margin-bottom: 1em;
+}
+
+.details>p:nth-child(2) {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+    row-gap: 5vh;
+    margin-bottom: 3em;
+}
+
+.details>div div {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 90%;
+       margin: auto;
+       border-bottom: 2px solid black;
+}
+
+.details>div p:last-child {    
+    width: 85%;
+    margin: 1em auto;
+}
+
+.details button {
+    padding: 5px 10px;
+    margin-bottom: 1em;
+    background-color: rgba(0, 0, 255, 0.834);
+    color: white;
+    border: none;
+}
+
+.portal {
+    position: absolute;
+    top: 0%;
+    background-color: rgba(16, 15, 15, .8);
+    width: 100%;
+    min-height: 200%;
+}
+
+.portal>div {
+    padding-top: 2em;
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        margin-top: 15vh!important;
+        height: 75vh;
+}
+
+.portal form {
+    border: none;
+}

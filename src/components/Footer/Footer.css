@@ -1,0 +1,109 @@
+
+.foot>div:first-child {
+    background-color: rgb(66, 169, 66);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot>div:first-child h2 {
+    color: white;
+    margin-bottom: .35em;
+    font-size: 2em;
+}
+
+.foot>div:first-child p {
+    font-size: .75;
+    text-align: left;
+}
+
+.foot>div:first-child a {
+    color: rgb(67, 191, 67);
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px gray solid;
+    border-radius: 25px;
+    width: 10%;
+}
+
+/*  */
+
+.foot .second {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 8, 8);
+    color: white;
+    padding: 2em;
+    vertical-align: top;
+}
+
+.foot .second div:last-child {
+    display: flex;
+    font-size: 1.3em;
+    min-width: 50%;
+    justify-content: space-around;
+    color: white;
+}
+
+.foot .second div:last-child a {
+    margin-bottom: 10px;
+    display: block;
+    color: gray;
+}
+
+.foot .second div:last-child ul li:first-child {
+    margin-bottom: 20px;
+}
+
+.foot input {
+    font-size: 1.55em;
+    padding: 6px;
+    width: 75%;
+    border: none;
+}
+
+.foot input + a {
+    border: 2px solid rgb(66, 169, 66);
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(66, 169, 66);
+    border-radius: 8px;
+}
+
+@media only screen and (max-width : 492px) {
+
+        .foot>div:first-child {
+            width: 90%;
+        }
+
+        .foot>div:first-child a {
+            width: 30%;
+            padding: 5px 10px;
+        }
+
+        .foot .second {
+            display: block;
+        }
+
+        .foot .second>div:first-child a {
+            display: inline;
+            width: max-content;
+            margin-top: 1em; 
+        }
+
+        .foot .second>div:first-child input {
+            width: 65%;
+        } 
+
+        .foot>div:first-child h2 {
+            font-size: 1.4em;
+        }
+
+        .foot .second ul:first-child, .foot .second>div:first-child {
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+}

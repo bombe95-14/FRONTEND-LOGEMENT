@@ -1,0 +1,27 @@
+
+form {
+    margin: 2em auto;
+    width: 85%;
+    border: 5px solid red;
+    padding-left: 2em;
+}
+
+form table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .75em auto;
+    font-size: 1.5em;
+}
+
+form table input {
+    font-size: 1.2em;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 15px;
+    color: blue;
+    font-weight: bold;
+    border: rgb(42, 31, 31);
+}
